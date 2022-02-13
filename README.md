@@ -30,6 +30,6 @@ Backend server was provided by Udacity by BooksAPI.js in the project.
 The provided file [`BooksAPI.js`](src/BooksAPI.js) contains methods that I used to perform necessary operations on the
 backend:
 
-* [`getAll`](getAll();) : Returns a Promise which resolves to a JSON object containing a collection of book objects.
-* [`update`](update(book, shelf);) : Returns a Promise which resolves to a JSON object containing the response data of the POST request
-* [`search`](search(query);) : Returns a Promise which resolves to a JSON object containing a collection of a maximum of 20 book objects.
+* [`getAll`](getAll()) : Returns a Promise which resolves to a JSON object containing a collection of book objects.
+* [`update`](update(book, shelf)) : Returns a Promise which resolves to a JSON object containing the response data of the POST request
+* [`search`](search(query)) : Returns a Promise which resolves to a JSON object containing a collection of a maximum of 20 book objects.
